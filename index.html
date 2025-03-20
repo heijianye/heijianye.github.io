@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 添加网站图标 -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>黑眼圈 | AI世界探索者</title>
     <!-- 引入TailwindCSS框架 -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -70,10 +73,9 @@
     </nav>
 
     <!-- Hero区域：全屏展示区，带渐变背景 -->
-    <section id="home" class="gradient-bg min-h-screen flex items-center relative">
-        <!-- 半透明遮罩层 -->
+    <!-- Hero Section -->
+    <section id="home" class="gradient-bg h-[1000px] flex items-center relative">
         <div class="absolute inset-0 bg-black/30"></div>
-        <!-- 内容区域 -->
         <div class="container mx-auto px-4 relative z-10">
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div class="text-white">
@@ -90,7 +92,7 @@
                     </div>
                 </div>
                 <div class="hidden md:block">
-                    <img src="https://picsum.photos/800/600?random=1" alt="Hero" class="rounded-lg shadow-xl">
+                    <img src="avator.png" alt="Hero" class="rounded-lg shadow-xl">
                 </div>
             </div>
         </div>
@@ -99,7 +101,7 @@
     <!-- About我：个人介绍区域 -->
     <section id="about" class="py-20 bg-white">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-16">关于我</h2>
+            <h2 class="text-3xl font-bold mb-16 border-b-2 border-primary pb-2 inline-block">关于我</h2>
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div>
                     <img src="https://picsum.photos/800/600?random=2" alt="About" class="rounded-lg shadow-xl">
@@ -119,7 +121,7 @@
     <!-- Skills Section -->
     <section id="skills" class="py-20 bg-gray-50">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-16">技术栈</h2>
+            <h2 class="text-3xl font-bold mb-16 border-b-2 border-primary pb-2 inline-block">技术栈</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Android开发技能卡片 -->
                 <div class="bg-white p-6 rounded-lg shadow-lg card-hover">
@@ -205,7 +207,7 @@
     <!-- AI Tools Section -->
     <section id="ai-tools" class="py-20 bg-white">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-16">AI探索之旅</h2>
+            <h2 class="text-3xl font-bold mb-16 border-b-2 border-primary pb-2 inline-block">AI探索之旅</h2>
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div>
                     <img src="https://picsum.photos/800/600?random=3" alt="AI Journey" class="rounded-lg shadow-xl">
@@ -238,7 +240,7 @@
     <!-- Contact Section -->
     <section id="contact" class="py-20 bg-gray-50">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-16">联系我</h2>
+            <h2 class="text-3xl font-bold mb-16 border-b-2 border-primary pb-2 inline-block">联系我</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="bg-white p-8 rounded-lg shadow-lg text-center card-hover">
                     <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -294,6 +296,12 @@
                 </div>
             </div>
             <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <!-- 添加访问量统计 -->
+                <div class="mb-4 flex justify-center">
+                    <a href="https://hits.sh/heijianye.github.io/">
+                        <img alt="Hits" src="https://hits.sh/heijianye.github.io.svg?label=%E6%B5%8F%E8%A7%88%E9%87%8F&extraCount=10000&color=f30c7e&labelColor=0c0c0c"/>
+                    </a>
+                </div>
                 <p class="text-gray-400">&copy; 2024 黑眼圈. All rights reserved.</p>
             </div>
         </div>
